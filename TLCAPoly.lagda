@@ -191,18 +191,19 @@ easy way to prove a testing lemma, but somehow things always became
 tricky very quickly.
 
 Little did I know in the late 1990s that Marko Petkov\v{s}ek, Herbert
-Wilf and Doron Zeilberger had given a fascinating
-treatment of this and other `proof by testing' methods in their
-wondrous compendium, \emph{A=B}~\cite{zeil}. Their tools are powerful
-but informal computer algebra packages: mine is Martin-L\"of's
-intensional type theory~\cite{martinloef:atheoryoftypes}, which is a
-formal discipline for proof where the division of labour between
-people and machines is negotiable by the act of programming.
-Recently, I found a way to prove the result in 250 lines of
-Agda~\cite{norell:agda}, without recourse to any library
-functionality, and remaining entirely within the theory of the natural
-numbers. I suspect this means I have learned something in the
-intervening years. This paper is an attempt to communicate it.
+Wilf and Doron Zeilberger had given a fascinating treatment of this
+and other `proof by testing' methods in their wondrous compendium,
+\emph{A=B}~\cite{zeil}. Their tools are powerful but informal computer
+algebra packages: mine is Martin-L\"of's intensional type
+theory~\cite{martinloef:atheoryoftypes}, which is a formal discipline
+for proof where the division of labour between people and machines is
+negotiable by the act of programming.  Recently, I found a way to
+prove the result in 250 lines of Agda~\cite{norell:agda}, without
+recourse to any library functionality, and remaining entirely within
+the theory of the natural
+numbers:~\url{https://github.com/pigworker/PolyTest}. I suspect this
+means I have learned something in the intervening years. This paper is
+an attempt to communicate it.
 
 
 \section{Polynomials and testing}
